@@ -12,8 +12,8 @@ llh 开发的实验室软件的**版本信息**。
 
 | 软件 | 版本 |
 |---|---|
-| 吸附制冷温控采集软件 (Sorption Cooler Control) | v0.7.2 |
-| 连接助手 | v0.1 |
+| 吸附制冷温控采集软件 (Sorption Cooler Control) | v0.7.3 |
+| 连接助手 | v0.2 |
 
 完整的更新日志见 [CHANGELOG.md](CHANGELOG.md)。
 
