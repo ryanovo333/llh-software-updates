@@ -2,7 +2,7 @@
   "main_app": {
     "name": "吸附制冷温控采集软件",
     "version": "v0.7.1",
-    "notes": "检查更新改为查本仓库;英文命名改用 sorption cooler"
+    "notes": "英文命名改用 sorption cooler;检查更新的服务地址调整"
   },
   "assistant": {
     "name": "连接助手",
