@@ -1,13 +1,13 @@
 {
   "main_app": {
     "name": "吸附制冷温控采集软件",
-    "version": "v0.7.6",
-    "notes": "重复报错不再刷屏;修正幽灵目标虚线;没在用的仪器置灰"
+    "version": "v0.8.0",
+    "notes": "仪器改成可增删的清单,同型号能接多台"
   },
   "assistant": {
     "name": "连接助手",
-    "version": "v0.2.2",
-    "notes": "加上使用说明(F1);修正任务栏图标"
+    "version": "v0.3.0",
+    "notes": "按仪器清单逐台显示,可添加/删除仪器"
   },
   "project_timetable": {
     "name": "项目时间表",
