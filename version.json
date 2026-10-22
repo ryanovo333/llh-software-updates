@@ -13,5 +13,10 @@
     "name": "项目时间表",
     "version": "v0.5.5",
     "notes": "「今天」整格竖向条带高亮与居中对齐;日视图周末浅灰底色区分;双行顶栏布局解决挤出屏幕问题;新增「今天」一键平滑滚动定位按钮"
+  },
+  "nikon_nef_hdr_converter": {
+    "name": "尼康 NEF 批量 HDR 转档降噪工具",
+    "version": "v1.0.0",
+    "notes": "首发版本：基于 Apple Silicon 原生 CoreImage (Metal 加速) 与 CIRAWFilter，支持尼康 Z5/Z30 NEF 批量 10-bit HDR HEIF 导出、RAW 级硬件加速三项降噪、非破坏性曝光与交互式比例裁切、完整 EXIF 元数据保留及多图参数一键同步"
   }
 }

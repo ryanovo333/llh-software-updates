@@ -10,6 +10,7 @@
 | 吸附制冷温控采集软件 | **v1.2.1** | 新增两级吸附制冷测试；修复界面文字挤压与面板重叠 | [查看](CHANGELOG.md#吸附制冷温控采集软件-sorption-cooler-control) |
 | 连接助手 | **v0.3.3** | 支持赋同 Photemp；固定串口参数的型号不再让你填波特率 | [查看](CHANGELOG.md#连接助手) |
 | 项目时间表 | **v0.5.5** | 「今天」整格条带高亮与对齐；日视图周末浅灰底色；双行顶栏；新增「今天」快速定位 | [查看](CHANGELOG.md#项目时间表-project-timetable) |
+| 尼康 NEF 批量 HDR 转档降噪工具 | **v1.0.0** | 首发：Metal 硬件加速 10-bit HDR HEIF 导出、RAW 级三项降噪与非破坏性比例裁切 | [查看](CHANGELOG.md#尼康-nef-批量-hdr-转档降噪工具-nikon-nef-hdr-converter) |
 
 > 上表由人工维护，机器读的是下面那份 `version.json`。改版本时两处都要改。
 
@@ -23,9 +24,10 @@ https://raw.githubusercontent.com/ryanovo333/llh-software-updates/main/version.j
 
 ```json
 {
-  "main_app":          { "name": "吸附制冷温控采集软件", "version": "v0.9.7", "notes": "..." },
-  "assistant":         { "name": "连接助手",           "version": "v0.3.3", "notes": "..." },
-  "project_timetable": { "name": "项目时间表",         "version": "v0.4.0", "notes": "..." }
+  "main_app":                { "name": "吸附制冷温控采集软件",     "version": "v0.9.7", "notes": "..." },
+  "assistant":               { "name": "连接助手",                 "version": "v0.3.3", "notes": "..." },
+  "project_timetable":       { "name": "项目时间表",               "version": "v0.4.0", "notes": "..." },
+  "nikon_nef_hdr_converter": { "name": "尼康 NEF 批量 HDR 转档降噪工具", "version": "v1.0.0", "notes": "..." }
 }
 ```
 
@@ -34,6 +36,7 @@ https://raw.githubusercontent.com/ryanovo333/llh-software-updates/main/version.j
 | `main_app` | 吸附制冷温控采集软件 |
 | `assistant` | 连接助手 |
 | `project_timetable` | 项目时间表 |
+| `nikon_nef_hdr_converter` | 尼康 NEF 批量 HDR 转档降噪工具 |
 
 一个文件而不是每个软件一个文件，是因为检查更新只需要一次请求；
 文件本身也就几百字节，再多几个软件也无所谓。
