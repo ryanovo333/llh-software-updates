@@ -11,8 +11,8 @@
   },
   "project_timetable": {
     "name": "项目时间表",
-    "version": "v0.5.5",
-    "notes": "「今天」整格竖向条带高亮与居中对齐;日视图周末浅灰底色区分;双行顶栏布局解决挤出屏幕问题;新增「今天」一键平滑滚动定位按钮"
+    "version": "v0.6.0",
+    "notes": "新增 macOS 与 Windows 双平台完整支持（DMG/App 与 Win64 Portable 打包）;修复 macOS 下 BOM Excel 路径分隔符兼容问题;适配 macOS 原生应用菜单与 ⌘C/⌘V/⌘Z 快捷键;补全双平台高清应用图标与 macOS 一键启动脚本"
   },
   "nikon_nef_hdr_converter": {
     "name": "尼康 NEF 批量 HDR 转档降噪工具",

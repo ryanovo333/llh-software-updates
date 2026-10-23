@@ -63,6 +63,23 @@
 
 ## 项目时间表 (Project Timetable)
 
+### v0.6.0
+
+- **新增 macOS 与 Windows 双平台完整支持**：
+  - 新增 macOS 原生 DMG 安装镜像与便携 ZIP 构建流程（`npm run app:dist:mac`），生成高压缩比标准 DMG 安装包及 `.app`。
+  - Windows 端保持免安装便携版 `portable` 打包（`npm run app:dist:win`），满足跨平台快速分发需求。
+- **跨平台路径分隔符与平台硬编码修复**：
+  - 新增 `joinPath` 跨平台路径解析辅助函数，自动识别 Windows 反斜杠 `\` 与 Unix 正斜杠 `/`，根除 macOS 环境下 BOM Excel 导出与自动同步路径拼接异常问题。
+  - 数据脚本与目录工具全面去除硬编码绝对盘符与用户名，统一改用 `path.join(os.homedir(), ...)` 标准路径。
+- **macOS 原生菜单栏与快捷键全面适配**：
+  - Electron 主进程针对 macOS 挂载原生应用菜单（AppMenu、EditMenu、WindowMenu），完美支持文字输入框快捷键（`⌘C`、`⌘V`、`⌘X`、`⌘A`）及系统级应用控制。
+  - 甘特图与 BOM 管理界面的全局撤销按钮及 Tooltip 提示根据平台自动识别显示为 `(⌘Z)` 或 `(Ctrl+Z)`。
+- **补全双平台专属高清矢量图标**：
+  - 重新设计项目时间表日程甘特图专属高清图标，利用 macOS 原生 `sips` 与 `iconutil` 生成 1024x1024 Retina 级 `build/icon.icns`，同时输出 Windows 专用 `build/icon.ico` 与跨平台 `build/icon.png`。
+  - 调整 `.gitignore` 允许将 `build/icon.*` 图标资产纳入 Git 追踪，解决 Windows/Mac 克隆后缺少图标的遗留缺陷。
+- **新增 macOS 一键启动脚本**：
+  - 根目录提供 `启动软件.command`，自动补全执行环境与首次构建依赖，双击即启动。
+
 ### v0.5.5
 
 - **「今天」整格竖向条带高亮与精准落位**：

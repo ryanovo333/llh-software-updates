@@ -9,7 +9,7 @@
 |---|---|---|---|
 | 吸附制冷温控采集软件 | **v1.3.0** | 新增 macOS 与 Windows 双平台支持；主软件与连接助手统一版本号；支持 GitHub 云端双端打包 | [查看](CHANGELOG.md#吸附制冷温控采集软件-sorption-cooler-control) |
 | 连接助手 | **v1.3.0** | 与主软件统一版本为 v1.3.0；新增 macOS 网卡静态IP/DHCP配置、跨平台诊断与串口排查 | [查看](CHANGELOG.md#连接助手) |
-| 项目时间表 | **v0.5.5** | 「今天」整格条带高亮与对齐；日视图周末浅灰底色；双行顶栏；新增「今天」快速定位 | [查看](CHANGELOG.md#项目时间表-project-timetable) |
+| 项目时间表 | **v0.6.0** | 新增 macOS 与 Windows 双平台支持；适配原生菜单与快捷键；跨平台路径兼容；补全高清图标 | [查看](CHANGELOG.md#项目时间表-project-timetable) |
 | 尼康 NEF 批量 HDR 转档降噪工具 | **v1.1.0** | RAW基础去灰强化与原厂镜头矫正；光影色彩7大滑块；Auto Tone智能显影；LrC暗黑UI | [查看](CHANGELOG.md#尼康-nef-批量-hdr-转档降噪工具-nikon-nef-hdr-converter) |
 
 > 上表由人工维护，机器读的是下面那份 `version.json`。改版本时两处都要改。
