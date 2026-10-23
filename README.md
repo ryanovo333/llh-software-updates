@@ -10,7 +10,7 @@
 | 吸附制冷温控采集软件 | **v1.2.1** | 新增两级吸附制冷测试；修复界面文字挤压与面板重叠 | [查看](CHANGELOG.md#吸附制冷温控采集软件-sorption-cooler-control) |
 | 连接助手 | **v0.3.3** | 支持赋同 Photemp；固定串口参数的型号不再让你填波特率 | [查看](CHANGELOG.md#连接助手) |
 | 项目时间表 | **v0.5.5** | 「今天」整格条带高亮与对齐；日视图周末浅灰底色；双行顶栏；新增「今天」快速定位 | [查看](CHANGELOG.md#项目时间表-project-timetable) |
-| 尼康 NEF 批量 HDR 转档降噪工具 | **v1.0.1** | 新增选片勾选导出工作流与按需降噪开关；修复白底白字与文字截断；更换全新3D卡通相机图标 | [查看](CHANGELOG.md#尼康-nef-批量-hdr-转档降噪工具-nikon-nef-hdr-converter) |
+| 尼康 NEF 批量 HDR 转档降噪工具 | **v1.1.0** | RAW基础去灰强化与原厂镜头矫正；光影色彩7大滑块；Auto Tone智能显影；LrC暗黑UI | [查看](CHANGELOG.md#尼康-nef-批量-hdr-转档降噪工具-nikon-nef-hdr-converter) |
 
 > 上表由人工维护，机器读的是下面那份 `version.json`。改版本时两处都要改。
 

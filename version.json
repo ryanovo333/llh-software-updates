@@ -16,7 +16,7 @@
   },
   "nikon_nef_hdr_converter": {
     "name": "尼康 NEF 批量 HDR 转档降噪工具",
-    "version": "v1.0.1",
-    "notes": "新增百张照片快速选片勾选导出与按需降噪开关工作流；修复裁切比例下拉框颜色看不清及复位按钮文字挤压；更换全新3D卡通尼康相机图标"
+    "version": "v1.1.0",
+    "notes": "全套 RAW 基础去灰强化与原厂镜头畸变暗角矫正；新增光影与色彩 7 大滑块；毫秒级 Auto Tone 智能显影与批量自动调色；单张独立 HDR/SDR 切换；全面升级 Lightroom Modern LrC 暗黑视觉风格"
   }
 }
