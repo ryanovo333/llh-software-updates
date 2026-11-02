@@ -7,8 +7,8 @@
 
 | 软件 | 版本 | 本次更新 | 详细日志 |
 |---|---|---|---|
-| 吸附制冷温控采集软件 | **v1.3.0** | 新增 macOS 与 Windows 双平台支持；主软件与连接助手统一版本号；支持 GitHub 云端双端打包 | [查看](CHANGELOG.md#吸附制冷温控采集软件-sorption-cooler-control) |
-| 连接助手 | **v1.3.0** | 与主软件统一版本为 v1.3.0；新增 macOS 网卡静态IP/DHCP配置、跨平台诊断与串口排查 | [查看](CHANGELOG.md#连接助手) |
+| 吸附制冷温控采集软件 | **v1.3.1** | 加热参数设置新增「优化参数」微调PID；完善两级制冷流程并新增冷头温差安全保护 | [查看](CHANGELOG.md#吸附制冷温控采集软件-sorption-cooler-control) |
+| 连接助手 | **v1.3.1** | 与主软件同步升级至 v1.3.1；保持跨平台配置与通信诊断协议兼容 | [查看](CHANGELOG.md#连接助手) |
 | 项目时间表 | **v0.6.0** | 新增 macOS 与 Windows 双平台支持；适配原生菜单与快捷键；跨平台路径兼容；补全高清图标 | [查看](CHANGELOG.md#项目时间表-project-timetable) |
 | 尼康 NEF 批量 HDR 转档降噪工具 | **v1.1.0** | RAW基础去灰强化与原厂镜头矫正；光影色彩7大滑块；Auto Tone智能显影；LrC暗黑UI | [查看](CHANGELOG.md#尼康-nef-批量-hdr-转档降噪工具-nikon-nef-hdr-converter) |
 

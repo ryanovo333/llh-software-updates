@@ -1,13 +1,13 @@
 {
   "main_app": {
     "name": "吸附制冷温控采集软件",
-    "version": "v1.3.0",
-    "notes": "新增 macOS 与 Windows 双平台支持，主软件与连接助手版本统一为 v1.3.0；支持 Mac 网卡设置、串口适配与 GitHub 云端自动双端打包"
+    "version": "v1.3.1",
+    "notes": "加热参数设置新增「优化参数」按历史曲线无扰动微调PID；完善两级吸附制冷控制流程并增加冷头温差保护"
   },
   "assistant": {
     "name": "连接助手",
-    "version": "v1.3.0",
-    "notes": "与主软件统一版本号为 v1.3.0；新增 macOS 网卡读取、原生管理员授权修改静态IP/恢复DHCP、跨平台ping与Mac串口驱动排查"
+    "version": "v1.3.1",
+    "notes": "版本号与主软件同步升级为 v1.3.1；保持跨平台配置与通信诊断协议兼容"
   },
   "project_timetable": {
     "name": "项目时间表",
