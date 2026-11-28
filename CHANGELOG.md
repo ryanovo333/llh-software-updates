@@ -2,6 +2,23 @@
 
 ## 尼康 NEF 批量 HDR 转档降噪工具 (Nikon NEF HDR Converter)
 
+### v1.2.0
+
+- **兼容手机照片与尼康 NEF RAW 混合批量转档 HEIF**：
+  - 新增支持 `.jpg` / `.jpeg` / `.png` / `.tif` / `.tiff` 标准照片导入与拖放（含 vivo 等 **2 亿像素 JPG** 手机原图），与尼康 `.nef` RAW 同列表统一管理与批量导出；
+  - 针对 2 亿像素等超大手机 JPG 采用 `CGImageSourceCreateThumbnailAtIndex` 硬件缩略图直出预览与 Auto Tone 采样，实现毫秒级切图与滑块响应；导出阶段自动检查 Metal 最大纹理限制并防爆内存；
+  - 修复标准图像加载方向与 PyObjC `NSArray` 格式 ISO 解析展示问题。
+- **双通道硬件 HEIF 转码 & 智能保留手机 HDR Gain Map**：
+  - 自动探测手机照片中的 `ISOGainMap`（Android Ultra HDR / ISO 21496-1）与 `HDRGainMap`；
+  - 未做像素编辑的手机照片自动走 `ImageIO` 硬件 HEIF 转码快通道，保持原始方向并原生保留 Gain Map，在 iPhone 相册中呈现原生高亮；经过调色/降噪/裁切/升格 HDR 的照片自动走 `CoreImage` Metal 渲染通道。
+- **完整保留拍摄时间、时区、相机 EXIF 与 GPS 地点**：
+  - 构造干净导出元数据保留 `{Exif}`、`{TIFF}`、`{GPS}`、`{MakerNikon}`、`{MakerApple}`、`{IPTC}` 等有效字段，并在导出出口自动校验补全缺失的 EXIF/TIFF/GPS 信息；
+  - 精准解析 `DateTimeOriginal` 与 `OffsetTimeOriginal` 时区偏移，同步写入输出文件的创建时间与修改时间，导入 iPhone「照片」与 macOS Finder 时排序与地点完全一致。
+- **HEIF 导出画质控制、防重名覆盖与压缩体积统计**：
+  - 新增 **HEIF 导出画质**滑块（`60% ~ 98%`，默认 `85%` 推荐均衡），支持双击或 `↺` 复位；
+  - 同批次混合导出同名不同扩展名文件（如 `IMG_001.NEF` 与 `IMG_001.JPG`）自动追加后缀防止互相覆盖；
+  - 导出完成弹窗实时展示原片总体积、HEIF 总体积、节省空间与压缩率；左侧 EXIF 卡片新增 `GPS 地点` 与 `文件信息`（格式/体积/GainMap 状态），非 RAW 照片自动禁用仅限 RAW 的镜头矫正选项。
+
 ### v1.1.0
 
 - **RAW 基础去灰强化与原厂光学镜头矫正**：

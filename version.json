@@ -16,7 +16,7 @@
   },
   "nikon_nef_hdr_converter": {
     "name": "尼康 NEF 批量 HDR 转档降噪工具",
-    "version": "v1.1.0",
-    "notes": "全套 RAW 基础去灰强化与原厂镜头畸变暗角矫正；新增光影与色彩 7 大滑块；毫秒级 Auto Tone 智能显影与批量自动调色；单张独立 HDR/SDR 切换；全面升级 Lightroom Modern LrC 暗黑视觉风格"
+    "version": "v1.2.0",
+    "notes": "新增导入手机照片（支持 vivo 等 2 亿像素 JPG、PNG、TIFF）转码高效 HEIF 节省体积；完整保留拍摄时间、时区、相机参数与 GPS 地点信息以便 iPhone 相册按时间排序和显示地点；智能识别保留手机 HDR Gain Map；新增 HEIF 导出画质滑块与压缩体积统计"
   }
 }

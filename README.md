@@ -10,7 +10,7 @@
 | 吸附制冷温控采集软件 | **v1.4.4alpha** | 新增 TC290 温控仪整合(10路测温+2路PID/网口4001+USB)；两级温差阈值可调；氧化钌高温兼容与40K预冷保温 | [查看](CHANGELOG.md#吸附制冷温控采集软件-sorption-cooler-control) |
 | 连接助手 | **v1.4.4alpha** | 与主软件同步升级至 v1.4.4alpha；新增 TC290 连接向导与端口4001错误诊断 | [查看](CHANGELOG.md#连接助手) |
 | 项目时间表 | **v0.6.0** | 新增 macOS 与 Windows 双平台支持；适配原生菜单与快捷键；跨平台路径兼容；补全高清图标 | [查看](CHANGELOG.md#项目时间表-project-timetable) |
-| 尼康 NEF 批量 HDR 转档降噪工具 | **v1.1.0** | RAW基础去灰强化与原厂镜头矫正；光影色彩7大滑块；Auto Tone智能显影；LrC暗黑UI | [查看](CHANGELOG.md#尼康-nef-批量-hdr-转档降噪工具-nikon-nef-hdr-converter) |
+| 尼康 NEF 批量 HDR 转档降噪工具 | **v1.2.0** | 兼容手机照片（含2亿像素JPG/PNG/TIFF）与NEF混合转HEIF；完整保留时间/时区/GPS/EXIF；智能保留HDR GainMap；新增画质滑块与压缩统计 | [查看](CHANGELOG.md#尼康-nef-批量-hdr-转档降噪工具-nikon-nef-hdr-converter) |
 
 > 上表由人工维护，机器读的是下面那份 `version.json`。改版本时两处都要改。
 
